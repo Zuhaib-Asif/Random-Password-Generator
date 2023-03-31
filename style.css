@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -12,12 +11,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #091F26;
 }
 
 .container {
-    background-color: skyblue;
+    background-color: #fff;
+    color: #091F26;
     width: 35%;
-    /* margin: auto; */
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -41,13 +41,40 @@ body {
 }
 
 #btn {
-    display: block;
     width: 100%;
     font-size: 20px;
-    color: skyblue;
-    background-color: black;
+    color: #fff;
+    background-color: #091F26;
     cursor: pointer;
     padding: 6px 0;
     border-radius: 8px;
+    border: 1px solid #091F26;
+}
+
+/* Making Responsive Using Media Queries  */
+
+@media (max-width: 701px) {
+    .container {
+        width: 65%;
+    }
+
+    #pass-output {
+        padding: 4px;
+        font-size: 20px;
+    }
+
+    .container h2 {
+        font-size: 18px;
+    }
+
+    .container h3 {
+        font-size: 14px;
+    }
+
+    #btn {
+        width: 100%;
+        font-size: 18px;
+        padding: 4px 0;
+    }
 
 }
