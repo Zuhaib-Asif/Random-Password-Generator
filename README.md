@@ -1,4 +1,4 @@
-Preview Live Site: https://zuhaib-asif.github.io/Random-Password-Generator/
+**Preview Live Site:** https://zuhaib-asif.github.io/Random-Password-Generator/
 
 # Random-Password-Generator
 
