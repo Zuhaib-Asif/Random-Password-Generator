@@ -1,3 +1,5 @@
+Preview Live Site: https://zuhaib-asif.github.io/Random-Password-Generator/
+
 # Random-Password-Generator
 
 **This project is a simple random password generator that allows users to generate a strong, random password of a desired length.**
